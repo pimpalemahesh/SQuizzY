@@ -9,10 +9,19 @@
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/rounded_box.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/submit_btn.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/textbox.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/font/oswald.xml" value="0.14375" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_profile.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_rank.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_wallet.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/single_item_category_layout.xml" value="0.2450592885375494" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/menu/menu_bottom.xml" value="0.11354166666666667" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/menu/wallet_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

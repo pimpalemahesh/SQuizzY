@@ -25,6 +25,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    buildFeatures{
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -32,10 +36,11 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:+'
     implementation 'com.google.android.material:material:+'
     implementation 'androidx.constraintlayout:constraintlayout:+'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:+'
     androidTestImplementation 'androidx.test.espresso:espresso-core:+'
 
-    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
+    implementation 'com.squareup.picasso:picasso:2.8'
 
 }
