@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596151065946",
+    "project_id": "squizzy-e103a",
+    "storage_bucket": "squizzy-e103a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596151065946:android:2ae373904ceb4ea7efe763",
+        "android_client_info": {
+          "package_name": "com.myinnovation.squizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596151065946-ea8a3tjp6p6uh8pjsjgu8hfksplm6cvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtL-PiZsMgNW_MRfKOkbzr0m23XTEABpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596151065946-ea8a3tjp6p6uh8pjsjgu8hfksplm6cvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

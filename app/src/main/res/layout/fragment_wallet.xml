@@ -1,19 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.WalletFragment">
 
-    <TextView
+    <View
+        android:id="@+id/view9"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wallet"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="150dp"
+        android:background="@drawable/drawable_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <View
+        android:id="@+id/view8"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/oswald"
+        android:text="Current Coins"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toTopOf="@+id/view8"
+        app:drawableLeftCompat="@drawable/ic_dollar"
+        app:drawableRightCompat="@drawable/ic_dollar" />
+
+    <TextView
+        android:id="@+id/current_coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald"
+        android:text="80000"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/canWithdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/oswald"
+        android:text="You can withdraw your money now"
+        android:textColor="#FFEB3B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/current_coins"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cannotWithdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/oswald"
+        android:text="50000 coins are required to withdraw"
+        android:textColor="@color/colorRed"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/current_coins"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/withdrawEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/textbox"
+        android:drawableStart="@drawable/ic_paypal"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/oswald"
+        android:hint="PayPal Email Address"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/view8"
+        android:autofillHints="" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/doller5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_box"
+        android:text="$5"
+        android:textColor="#827717"
+        app:layout_constraintEnd_toStartOf="@+id/doller10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/withdrawEmail" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/doller50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/rounded_box"
+        android:text="$50"
+        android:textColor="#827717"
+        app:layout_constraintBottom_toBottomOf="@+id/doller10"
+        app:layout_constraintEnd_toStartOf="@+id/customdoller"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/doller10"
+        app:layout_constraintTop_toTopOf="@+id/doller10" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/doller10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/rounded_box"
+        android:text="$10"
+        android:textColor="#827717"
+        app:layout_constraintBottom_toBottomOf="@+id/doller5"
+        app:layout_constraintEnd_toStartOf="@+id/doller50"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/doller5"
+        app:layout_constraintTop_toTopOf="@+id/doller5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/customdoller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_box"
+        android:text="Custom"
+        android:textColor="#827717"
+        app:layout_constraintBottom_toBottomOf="@+id/doller50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/doller50"
+        app:layout_constraintTop_toTopOf="@+id/doller50" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_bg_2"
+        android:padding="12dp"
+        android:text="Send Request"
+        android:textColor="#37474F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_custom_doller"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/et_custom_doller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:fontFamily="@font/oswald"
+        android:gravity="center"
+        android:hint="Enter Custom Amount"
+        android:inputType="numberSigned"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doller10" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,21 +4,36 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/background.xml" value="0.222" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/btn_bg1.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/btn_bg_2.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/btn_bg_3.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/drawable_bottom.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/ic_my_activity.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/ic_question.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/image_circle.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/option_right.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/option_unselected.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/option_wrong.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/rounded_box.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/rounded_exit_box.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/submit_btn.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/drawable/textbox.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/font/oswald.xml" value="0.14375" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_otp_verification.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_quiz.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_result.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_my_activity.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_profile.xml" value="0.24010416666666667" />
-        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_rank.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_rank.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_setting.xml" value="0.25416666666666665" />
-        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_wallet.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/fragment_wallet.xml" value="0.176" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/single_item_category_layout.xml" value="0.2450592885375494" />
+        <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/layout/single_rank_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/menu/menu_bottom.xml" value="0.11354166666666667" />
         <entry key="..\:/AndroidStudioProjects/SQuizzY/app/src/main/res/menu/wallet_menu.xml" value="0.25416666666666665" />

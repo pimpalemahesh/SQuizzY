@@ -2,15 +2,36 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.myinnovation.squizzy">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SQuizzY">
+        android:theme="@style/Theme.SQuizzY"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activitys.OtpVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activitys.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.QuizActivity"
+            android:exported="false" />
         <activity
             android:name=".Activitys.RegisterActivity"
             android:exported="false" />
@@ -19,14 +40,7 @@
             android:exported="false" />
         <activity
             android:name=".Activitys.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            android:exported="false"></activity>
     </application>
 
 </manifest>

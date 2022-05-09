@@ -8,9 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.myinnovation.squizzy.R;
+import com.myinnovation.squizzy.databinding.FragmentWalletBinding;
 
 public class WalletFragment extends Fragment {
+
+    FragmentWalletBinding binding;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,13 @@ public class WalletFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_wallet, container, false);
+        binding = FragmentWalletBinding.inflate(inflater);
+
+        if(Integer.parseInt(binding.currentCoins.getText().toString()) >= 50000){
+            binding.canWithdraw.setVisibility(View.VISIBLE);
+        } else{
+            binding.cannotWithdraw.setVisibility(View.INVISIBLE);
+        }
+        return binding.getRoot();
     }
 }

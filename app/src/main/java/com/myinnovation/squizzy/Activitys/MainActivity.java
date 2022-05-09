@@ -9,7 +9,7 @@ import android.view.View;
 import com.myinnovation.squizzy.Fragments.HomeFragment;
 import com.myinnovation.squizzy.Fragments.ProfileFragment;
 import com.myinnovation.squizzy.Fragments.RankFragment;
-import com.myinnovation.squizzy.Fragments.SettingFragment;
+import com.myinnovation.squizzy.Fragments.MyActivityFragment;
 import com.myinnovation.squizzy.Fragments.WalletFragment;
 import com.myinnovation.squizzy.R;
 import com.myinnovation.squizzy.databinding.ActivityMainBinding;
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
                     binding.toolbar.setVisibility(View.GONE);
                     break;
 
-                case R.id.setting:
-                    transaction1.replace(R.id.fragment_container, new SettingFragment());
+                case R.id.myActivity:
+                    transaction1.replace(R.id.fragment_container, new MyActivityFragment());
                     binding.toolbar.setVisibility(View.GONE);
                     break;
 
